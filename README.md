@@ -13,7 +13,7 @@
 ## Abstract & Project Overview
 Bachelor's Thesis in Mechanical Engineering at **Università Politecnica delle Marche (UNIVPM)** — Graduated October 2026 with **110/110 cum laude**.
 
-This work addresses the multi-sensor integration, spatial calibration, and real-time environmental perception of the **Unitree G1 EDU** humanoid robot. The project combines 3D LiDAR spatial mapping and statistical point-cloud filtering with deep-learning RGB-D object detection to enable real-time 3D target localization in unstructured environments.
+This work addresses the multi-sensor integration and real-time environmental perception of the **Unitree G1 EDU** humanoid robot. The project combines 3D LiDAR spatial mapping and statistical point-cloud filtering with deep-learning RGB-D object detection to enable real-time 3D target localization in unstructured environments.
 
 ## Key Engineering Highlights
 * **Multi-Sensor Hardware & FOV Integration:** Analyzed the geometric mounting constraints and overlapping Field of View (FOV) between the **Livox Mid-360** 3D LiDAR and the **Intel RealSense D435i** RGB-D camera on the Unitree G1 platform.
@@ -24,12 +24,12 @@ This work addresses the multi-sensor integration, spatial calibration, and real-
 
 ## Hardware & Software Stack
 * **Hardware:** Unitree G1 EDU Humanoid Robot, Livox Mid-360 3D LiDAR, Intel RealSense D435i RGB-D Camera.
-* **Software & Frameworks:** Ubuntu 22.04, ROS 2 Humble, Python, C++, Ultralytics YOLOv11, Open3D, PyVista, RViz2, Unitree SDK2.
+* **Software & Frameworks:** Ubuntu 22.04, ROS 2 Humble, Python, Ultralytics YOLOv11, Open3D, PyVista, Unitree SDK2.
 
 ## Thesis Structure (Italian Manuscript)
 1. **Introduction & Objectives:** Context of humanoid robotics and sensory perception requirements.
 2. **Hardware Architecture:** Mechanical and electronic overview of the Unitree G1 EDU, Livox Mid-360, and RealSense D435i.
 3. **Software & Communication Stack:** Network configuration, Unitree SDK2, and ROS 2 Humble middleware architecture.
-4. **3D Object Detection Pipeline:** Dataset creation, Roboflow augmentation, YOLOv11 training, and live 3D coordinate estimation.
-5. **3D SLAM & Point-Cloud Filtering:** Spatial mapping experiments and Statistical Outlier Removal (SOR) performance evaluation.
+4. **3D Object Detection Pipeline:** Dataset creation, Roboflow augmentation, YOLOv11 training, live object detection and coordinate estimation.
+5. **3D SLAM & Point-Cloud Filtering:** Spatial mapping experiments and Statistical Outlier Removal filtering.
 6. **Conclusions & Future Developments:** Summary of experimental results and sensor-fusion perspectives.
