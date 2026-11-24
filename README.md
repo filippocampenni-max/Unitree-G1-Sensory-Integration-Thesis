@@ -20,7 +20,7 @@ This work addresses the multi-sensor integration and real-time environmental per
 * **3D LiDAR Point-Cloud Post-Processing:** Acquired raw spatial point clouds during dynamic mapping sessions and implemented automated **Python** post-processing pipelines applying *Statistical Outlier Removal* (SOR) filters (**Open3D**, **PyVista**) to eliminate dynamic operator trails and sensor noise prior to 3D SLAM relocalization.
 * **Real-Time RGB-D Object Detection:** Integrated the Intel RealSense D435i depth stream with **Ultralytics YOLOv11** via **ROS 2 Humble** on Ubuntu Linux to compute real-time 3D spatial coordinates $(X, Y, Z)$ of detected targets.
 * **Custom Dataset & Model Validation:** Built and augmented a custom dataset (891 base images, 3x augmentation via Roboflow), achieving **0.886 mAP@0.5** and an **F1-score of 0.87**.
-* **Kinematic Telemetry & SDK Integration:** Interfaced with **Unitree SDK2** (C++/Python) to manage sensor coordinate-frame transformations and hardware telemetry.
+* **Kinematic Telemetry & SDK Integration:** Interfaced with **Unitree SDK2** to manage sensor coordinate-frame transformations and hardware telemetry.
 
 ## Hardware & Software Stack
 * **Hardware:** Unitree G1 EDU Humanoid Robot, Livox Mid-360 3D LiDAR, Intel RealSense D435i RGB-D Camera.
